@@ -80,6 +80,11 @@ body, html {
 #portfolio-header-div {
     text-align: center;
     margin-bottom: 4em;
+    
+    background-image: url("../images/confetti.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 
 
@@ -144,7 +149,10 @@ body, html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+    min-height: 650px;
 }
+
+
 
 #copy-right-header {
     padding-top: 0.5em;
@@ -176,7 +184,12 @@ body, html {
     margin-right: 1em;
 }
 
+
+
 #navbar {
+    z-index:2;
+    position: fixed;
+    width: 100%;
     background-color: #fafafa;
     height: 2.5em;
     box-shadow: 2px 2px #444267;
@@ -194,6 +207,99 @@ body, html {
 
 }
 
+#portfolio-body-div {
+    
+    text-align: center;
+ 
+ 
+}
+
+.portfolio-body-header {
+    
+    background-color: #ba753d;
+    
+    border-radius: 10%;
+    
+    background-image: url("../images/portfolio/companions.png");
+    /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    
+    height: 200px;
+    width: 250px;
+
+    box-shadow: 0 3px 3px rgb(0 0 0 / 0.2);
+    
+    margin-bottom: 1em;
+    
+}
+
+
+.portfolio-body-title-div {
+    
+    text-align: center;
+    
+    margin-bottom: 1em;
+}
+
+.portfolio-body-title {
+    font-family: mon-bold-font;
+    font-size: 1.5em;
+    
+}
+
+
+.portfolio-body-description {
+    
+    padding: 1em;
+    font-size: 0.7em;
+    height: 100px;
+}
+
+.portfolio-body {
+    border-radius: 10%;
+    background-color: #dddddd;
+    height: 450px;
+    width: 250px;
+    
+    display:inline-block;
+    
+    margin: 2.5em;
+  
+
+
+}
+
+.portfolio-button {
+ 
+    margin-top: 5em;
+}
+
+.btn.btn-secondary.btn-sm.portfolio-button-sm {
+    
+    background-color: #ba753d;
+    border-color: #ba753d;
+}
+
+.btn.btn-secondary.btn-sm.portfolio-button-sm:hover, .btn.btn-secondary.btn-sm.portfolio-button-sm:focus
+{
+    background-color: #8f5524;
+    border-color: #8f5524;
+    
+}
+
+
+#about-me-header-div {
+    
+    text-align: center;
+    
+    margin-top:2em;
+}
 #about-me-header
 {
     writing-mode: vertical-rl;
@@ -204,6 +310,7 @@ body, html {
 }
 
 #about-me-speech-icon {
+    transform: scaleX(-1);
     opacity: 20%;
 }
 
@@ -226,7 +333,16 @@ body, html {
     margin-left: 3em;
 }
 
+
+.first_section {
+    
+    margin-bottom: 5em;
+    
+}
+
+
 .second_section {
+    margin-top: 5em;
     padding-top: 5em;
     
     background-color: #fafafa ;
