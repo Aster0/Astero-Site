@@ -6,8 +6,8 @@
       "name": "Tan Tock Seng Hospital Game (Tower Defense)",
       "url": "https://www.youtube.com/watch?v=fm4ObmsnnfA",
       "description": "An innovative & fun Tower Defense game crafted for Tan Tock Seng Hospital.",
-      "image_url": "www"
-      
+      "image_url": "www",
+      "languages": ["C#"]
       
     },
 
@@ -15,7 +15,8 @@
       "name": "Dragon Story",
       "url": "https://www.youtube.com/watch?v=tTgGRFPAM54&t=116s",
       "description": "Dragon Story is a 2.5D side scroller RPG typed game where you progress by fighting waves of randomly procedurally generated stats monster. ",
-      "image_url": "www"
+      "image_url": "www",
+      "languages": ["C#"]
       
       
     },
@@ -25,28 +26,28 @@
       "name": "Cosmic",
       "url": "https://www.youtube.com/watch?v=ufb8BIFM7hE&t=98s",
       "description": "Cosmic is an educational game that teaches you about the severity of your actions if Earth is not taken care of.",
-      "image_url": "www"
-      
+      "image_url": "www",
+      "languages": ["C#"]     
       
     },
 
 
 
     {
-      "name": "Grassroot Mobile Application (Flutter Version)",
+      "name": "Grassroot Mobile Application",
       "url": "",
       "description": "The Grassroot Application is a way to eliminate the hassle of having to document data on pieces of paper and filing them physically.",
-      "image_url": "www"
-      
+      "image_url": "www",
+      "languages": ["Flutter", "Java"]      
       
     },
 
     {
       "name": "Smart Temperature Monitoring (IoT Project)",
       "url": "",
-      "description": "With the Smart Temperature Monitoring project, it lessens this time to a mere 10 minutes, so schools can deploy this temperature measurements more often, resulting in a safer environments for our students.",
-      "image_url": "www"
-      
+      "description": "With the Smart Temperature Monitoring project, it automates temperature taking for schools, lessening the overall duration needed.",
+      "image_url": "www",
+      "languages": ["Python", "C++"]      
       
     },
 
@@ -54,8 +55,8 @@
       "name": "Companions",
       "url": "https://www.spigotmc.org/resources/companions-free-version.83795/",
       "description": "Companions is a dynamic plugin that allows server owners to create their own creative-looking Companions.",
-      "image_url": "www"
-      
+      "image_url": "www",
+      "languages": ["Java"]      
       
     },
     
@@ -63,7 +64,8 @@
      "name": "Lottery Pools (Legacy)",
       "url": "https://www.spigotmc.org/resources/lotterypool-winner-takes-all-1-13-1-12.62451/",
       "description": "Lottery Pool allows you to better manage your server economy by allowing players to take in lotteries that are automatically made every (configurable) minutes.",
-      "image_url": "www1"
+      "image_url": "www1",
+      "languages": ["Java"]  
       
     },
 
@@ -71,7 +73,8 @@
      "name": "PotionCreation (Legacy)",
       "url": "https://gitlab.com/Aster0/potioncreation-reborn",
       "description": "Allows your players to mix potions to create ONE brand new unique potion w/ unique system!",
-      "image_url": "www1"
+      "image_url": "www1",
+      "languages": ["Java"]  
       
     },
 
@@ -79,7 +82,8 @@
      "name": "Command Regions (Legacy)",
       "url": "https://www.mc-market.org/resources/9627/",
       "description": "Command Regions allows you to easily execute commands/send messages when entering/leaving a region using a built-in region creator.",
-      "image_url": "www1"
+      "image_url": "www1",
+      "languages": ["Java"]  
       
     },
 
@@ -87,7 +91,8 @@
      "name": "Doraemon Discord Bot (Legacy)",
       "url": "https://youtu.be/abir6477neo",
       "description": "Official Discord bot for the Astero Development server! - Offers advanced ticketing system, and many more.",
-      "image_url": "www1"
+      "image_url": "www1",
+      "languages": ["Java"]  
       
     },
 
@@ -95,7 +100,8 @@
      "name": "Fangs Discord Bot (Legacy)",
       "url": "https://youtu.be/X_DO8twXNMw",
       "description": "A modern take on a ticketing Discord bot.",
-      "image_url": "www1"
+      "image_url": "www1",
+      "languages": ["Java"]  
       
     }
     

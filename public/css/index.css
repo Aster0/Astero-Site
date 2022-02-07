@@ -158,6 +158,15 @@ body, html {
 }
 
 
+.image-load {
+    position: absolute;
+ 
+    bottom: 20em;
+    left: 20em;
+    
+}
+
+
 
 #copy-right-header {
     padding-top: 0.5em;
@@ -271,8 +280,10 @@ body, html {
 .portfolio-body {
     border-radius: 10%;
     background-color: #dddddd;
-    height: 450px;
+    height: 500px;
     width: 250px;
+
+    box-shadow: 5px 4px 5px rgb(0 0 0 / 0.2);
     
     display:inline-block;
     
@@ -285,6 +296,20 @@ body, html {
 .portfolio-button {
  
     margin-top: 5em;
+}
+
+
+.language-tool-tip-div {
+    
+    text-align: center;
+}
+
+.language-tool-tip {
+
+    background-color: #d77323 !important;
+
+    margin: 0.4em;
+    letter-spacing: 1px;
 }
 
 .btn.btn-secondary.btn-sm.portfolio-button-sm {

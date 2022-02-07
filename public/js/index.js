@@ -2,24 +2,43 @@
 
 portfolioList = [];
 
+
+
+function loadImage()
+{
+    var image = document.getElementById("image-header1");
+    
+    var spinner = document.getElementById("image-load-spinner");
+
+    setTimeout(function() {
+        
+        
+        
+        image.style.opacity = 100;
+        spinner.style.display = "none";
+    }, 1000);
+}
+
 function onLoadPortfolio()
 {
     
     console.log("test");
-    var rawFile = new XMLHttpRequest();
-    rawFile.open("GET", "../js/data/portfolio.json", false);
-    rawFile.onreadystatechange = function ()
+    var xmlHttpRequest = new XMLHttpRequest();
+
+
+    xmlHttpRequest.open("GET", "../js/data/portfolio.json", false);
+    xmlHttpRequest.onreadystatechange = function ()
     {
-        if(rawFile.readyState === 4)
+        if(xmlHttpRequest.readyState === 4)
         {
-            if(rawFile.status === 200 || rawFile.status == 0)
+            if(xmlHttpRequest.status === 200 || xmlHttpRequest.status == 0)
             {
-                var allText = rawFile.responseText;
+                var textContents = xmlHttpRequest.responseText;
                 
                 
                 
                 
-                var jsonifiedText = JSON.parse(allText);
+                var jsonifiedText = JSON.parse(textContents);
                 
                 console.log(jsonifiedText['data']);
 
@@ -30,8 +49,19 @@ function onLoadPortfolio()
                 
                 for(var portfolio of portfolioList)
                 {
-                    console.log(portfolio['name']);
                     
+                    
+                    var languages = portfolio['languages'];
+                    
+                    console.log(languages);
+                    
+                    var languageToolTips = "";
+                    
+                    for(var language of languages)
+                    {
+                        languageToolTips +=
+                            "<span class=\"badge badge-dark language-tool-tip\" >" + language +"</span>" 
+                    }
                     
                     var portfolioParent = document.getElementById("portfolio-body-div");
                     
@@ -41,12 +71,21 @@ function onLoadPortfolio()
                         "<div class=\"portfolio-body\">" +
 
                             "<div class=\"portfolio-body-header\">" +
+                        
 
 
-                            "</div>" + 
+                            "</div>" +
+                        
+                        "<div class=\"language-tool-tip-div\">" +
 
+                        languageToolTips +
+                        
+                        "</div>" +
+                        
 
                             "<div class=\"portfolio-body-description\">" +
+
+                     
 
                                 "<div class=\"portfolio-body-title-div\"><span class=\"portfolio-body-title\">" + portfolio['name'] + "</span></div>" +
 
@@ -72,9 +111,9 @@ function onLoadPortfolio()
             }
         }
     }
-    
-    
-    rawFile.send(null);
+
+
+    xmlHttpRequest.send(null);
 }
 
 
