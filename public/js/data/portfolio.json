@@ -59,6 +59,15 @@
       "languages": ["Java"]      
       
     },
+
+  {
+     "name": "Astero Portfolio Website",
+      "url": "https://github.com/Aster0/Astero-Site",
+      "description": "Basically what you're looking at now! It's open sourced :)",
+      "image_url": "www1",
+      "languages": ["HTML", "CSS", "javascript"]  
+      
+    },
     
     {
      "name": "Lottery Pools (Legacy)",

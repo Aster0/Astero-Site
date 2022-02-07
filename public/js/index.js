@@ -11,18 +11,45 @@ function loadImage()
     var spinner = document.getElementById("image-load-spinner");
 
     setTimeout(function() {
-        
-        
-        
-        image.style.opacity = 100;
+
+
+        animateImage(image)
+
+     
+   
         spinner.style.display = "none";
     }, 1000);
+}
+
+function animateImage(image)
+{
+  
+    
+    if(image.style.opacity < 1)
+    {
+      
+        setTimeout(function() {
+
+     
+            
+            var imageOpacity = parseFloat(image.style.opacity) + 0.2;
+
+          
+      
+            image.style.opacity = imageOpacity;
+            animateImage(image)
+
+
+        }, 27);
+    }
+
+    
 }
 
 function onLoadPortfolio()
 {
     
-    console.log("test");
+ 
     var xmlHttpRequest = new XMLHttpRequest();
 
 
@@ -40,7 +67,7 @@ function onLoadPortfolio()
                 
                 var jsonifiedText = JSON.parse(textContents);
                 
-                console.log(jsonifiedText['data']);
+             
 
                 portfolioList = jsonifiedText['data'];
                 
@@ -53,7 +80,7 @@ function onLoadPortfolio()
                     
                     var languages = portfolio['languages'];
                     
-                    console.log(languages);
+             
                     
                     var languageToolTips = "";
                     
