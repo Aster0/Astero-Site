@@ -139,7 +139,10 @@ body, html {
   height: 100%;
 }
 
+
+
 .bg {
+    
   /* The image used */
   background-image: url("../images/avatar1.png");
 
@@ -156,6 +159,9 @@ body, html {
   background-size: cover;
     min-height: 650px;
 }
+
+
+
 
 
 .image-load {
@@ -631,4 +637,24 @@ body, html {
 @keyframes action {
     0% { transform: translateY(0); }
     100% { transform: translateY(-10px); }
+}
+
+@media screen and (max-width: 480px) {
+    .bg {
+
+        min-height: 250px;
+
+    }
+
+    #scroll-div {
+
+        margin-top: 5em;
+    }
+
+    #about-me-header-div {
+        
+        height: 300px;
+    }
+   
+  
 }

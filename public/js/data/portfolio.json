@@ -103,6 +103,15 @@
       "image_url": "www1",
       "languages": ["Java"]  
       
+    },
+
+  {
+     "name": "Website Inventory System (Legacy)",
+      "url": "https://www.youtube.com/watch?v=87fEG3dHEuM",
+      "description": "A dynamic inventory system on a website with advanced features.",
+      "image_url": "www1",
+      "languages": ["HTML", "CSS", "javascript"]  
+      
     }
     
     
