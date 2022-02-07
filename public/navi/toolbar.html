@@ -10,12 +10,21 @@
  
 
     <div id="toolbar-items">
-        <a href="#home" data-toggle="tooltip" title="Jump to Home"> <span class="toolbar-dot" id="toolbar-close"></span></a>
 
-        <a href="#about-me" data-toggle="tooltip" title="Jump to About Me"><span class="toolbar-dot" id="toolbar-minimize"></span></a>
-        <a href="#portfolio" data-toggle="tooltip" title="Jump to Portfolio"><span class="toolbar-dot" id="toolbar-maximize"></span></a>
+        <span class="badge badge-dark" id="custom-tool-tip" style="display:none">Jump to %place%</span>
+        <a id="Home" onmouseover="showToolTip(id)" onmouseleave = "hideToolTip()" href="#home" > <span class="toolbar-dot" id="toolbar-close"></span></a>
+
+        <a id="About Me" onmouseover="showToolTip(id)" onmouseleave = "hideToolTip()" href="#about-me"><span class="toolbar-dot" id="toolbar-minimize"></span></a>
+        <a id="Portfolio" onmouseover="showToolTip(id)" onmouseleave = "hideToolTip()" href="#portfolio"><span class="toolbar-dot" id="toolbar-maximize"></span></a>
+    
+    
+    
     </div>
+    
+    
 
 
 
 </nav>
+
+

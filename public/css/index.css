@@ -223,11 +223,11 @@ body, html {
 
 .portfolio-body-header {
     
-    background-color: #ba753d;
+    background-color: #d77323;
     
     border-radius: 10%;
     
-    background-image: url("../images/portfolio/companions.png");
+    background-image: url("../images/medal.png");
     /* Center and scale the image nicely */
     background-repeat: no-repeat;
     background-position: center center;
@@ -289,14 +289,14 @@ body, html {
 
 .btn.btn-secondary.btn-sm.portfolio-button-sm {
     
-    background-color: #ba753d;
-    border-color: #ba753d;
+    background-color: #d77323;
+    border-color: #d77323;
 }
 
 .btn.btn-secondary.btn-sm.portfolio-button-sm:hover, .btn.btn-secondary.btn-sm.portfolio-button-sm:focus
 {
-    background-color: #8f5524;
-    border-color: #8f5524;
+    background-color: #b56022;
+    border-color: #b56022;
     
 }
 
@@ -314,12 +314,105 @@ body, html {
     text-orientation: upright;
     font-family: mon-bold-font;
     font-size: 1.5em;
+    
     margin: 0em;
 }
 
 #about-me-speech-icon {
     transform: scaleX(-1);
+    
+}
+
+.opac-icons {
     opacity: 20%;
+}
+
+.opac-icons2 {
+    opacity: 30%;
+}
+
+.progress-bar {
+    background-color: #d77323 !important;
+}
+
+.progress {
+    background-color: #f3ddca !important;
+  
+    
+}
+
+
+
+.badge.badge-dark {
+    font-size: 0.7em;
+
+    
+}
+
+/* unvisited link */
+#linkedin-link:link {
+    color: #d77323;
+}
+
+/* visited link */
+#linkedin-link:visited {
+    color: #d77323;
+}
+
+/* mouse over link */
+#linkedin-link:hover {
+    color: #d77323 !important;
+
+}
+
+/* selected link */
+#linkedin-link:active {
+    color: #d77323;
+}
+
+
+
+
+#programming-header-div {
+    text-align: center;
+    
+    margin-bottom: 2em;
+}
+
+#programming-header {
+    font-family: mon-bold-font;
+    
+    
+}
+
+.skill-set-icons-enlarged {
+    
+    width: 25px;
+    height: 25px;
+    margin-bottom: 0.1em;
+}
+
+
+.skill-set-icons {
+    
+    width: 15px;
+    height: 15px;
+    
+    margin-bottom: 0.2em;
+}
+
+.skill-set {
+    
+    margin-bottom: 1em;
+}
+
+
+
+.skill-set-name {
+    margin-left: 0.3em;
+    display: inline-block;
+    width: 50px;
+    text-align: left;
 }
 
 #about-me-description {
@@ -339,6 +432,23 @@ body, html {
     width: 15em;
     margin-bottom: 15em;
     margin-left: 3em;
+}
+
+
+
+#background-image-2 {
+    background-image: url("../images/header1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    
+    height: 250px;
+    width: 100%;
+    margin-bottom: 1em;
+    border-radius: 30%;
 }
 
 
@@ -442,31 +552,50 @@ body, html {
     padding-bottom: 0.3em;
   }
 
- 
 
   
+  .col-sm.skill-set-title {
+
+      max-width: 30%;
+  }
+
+.col-sm.skill-set-progress {
+
+    padding-top: 0.3em;
+}
 
   
+  .skill-set {
+      
+      text-align: center;
+    
+  }
 
-  ::-webkit-scrollbar {
+
+
+::-webkit-scrollbar {
     width: 5px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
+}
+
+/* Track */
+::-webkit-scrollbar-track {
     background: #f1f1f1;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #676E95;
-  
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #202331;
-  }
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #E76F51;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #F0613D;
+}
+
+::selection {
+    background: #f19650;
+}
 
 
 @-webkit-keyframes action {

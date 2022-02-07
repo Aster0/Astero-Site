@@ -51,7 +51,7 @@ function onLoadPortfolio()
                                 "<div class=\"portfolio-body-title-div\"><span class=\"portfolio-body-title\">" + portfolio['name'] + "</span></div>" +
 
 
-                                "<img src=\"images/speech.svg\" id=\"about-me-speech-icon\">" +
+                                "<img src=\"images/speech.svg\" id=\"about-me-speech-icon\"  class=\"opac-icons\">" +
 
                                     portfolio['description'] +
                         
@@ -75,4 +75,22 @@ function onLoadPortfolio()
     
     
     rawFile.send(null);
+}
+
+
+function showToolTip(id)
+{
+    var t = "      <span class=\"badge badge-dark\">Jump to Home</span>"
+    
+    var tooltip = document.getElementById("custom-tool-tip");
+    
+
+    tooltip.textContent = "Jump to " + id;
+    tooltip.style.display = "initial";
+}
+
+function hideToolTip()
+{
+    var tooltip = document.getElementById("custom-tool-tip");
+    tooltip.style.display = "none";
 }
